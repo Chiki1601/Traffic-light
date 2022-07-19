@@ -1,0 +1,55 @@
+body {
+  background: linear-gradient(to right, black, cyan);
+}
+.container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 30%;
+  left: 45%;
+}
+
+.box {
+  width: 70px;
+  height: 200px;
+  position: relative;
+  background-image: linear-gradient(to bottom, black 70%, grey);
+  border-radius: 5%;
+  border: rgb(247, 242, 242) solid 1px;
+}
+
+.red {
+  width: 50px;
+  height: 50px;
+  background-image: radial-gradient(
+    circle at center,
+    white,
+    rgb(75, 73, 73) 70%
+  );
+  border-radius: 50%;
+  transform: translateX(20%) translateY(10%);
+}
+
+.yellow {
+  width: 50px;
+  height: 50px;
+  background-image: radial-gradient(
+    circle at center,
+    white,
+    rgb(75, 73, 73) 70%
+  );
+  border-radius: 50%;
+  transform: translateX(20%) translateY(30%);
+}
+
+.green {
+  width: 50px;
+  height: 50px;
+  background-image: radial-gradient(
+    circle at center,
+    white,
+    rgb(75, 73, 73) 70%
+  );
+  border-radius: 50%;
+  transform: translateX(20%) translateY(50%);
+}
